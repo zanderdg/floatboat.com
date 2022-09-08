@@ -1,0 +1,33 @@
+.financing-modal {
+  padding-top: 1.6rem;
+}
+.financing-modal .main {
+  padding: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgb(202, 202, 202);
+}
+.financing-modal .main .file-icon {
+  font-size: 50px;
+  color: gray;
+}
+.financing-modal .main h1 {
+  font-size: 38px;
+  color: var(--text-black) !important;
+  width: 80%;
+  font-family: EB Garamond, serif;
+  line-height: 2.875rem;
+  margin-top: 1rem;
+}
+.financing-modal .main p {
+  margin-top: 1rem;
+  font-size: 17px;
+}
+.financing-modal .contact-btn {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  color: var(---primary) !important;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+}

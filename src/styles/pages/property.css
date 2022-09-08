@@ -1,0 +1,192 @@
+.property-main .header {
+  height: 700px;
+  /* background-image: url("../../assets/detail.png"); */
+  display: flex;
+  padding: 50px;
+  align-items: flex-end;
+  background-size: 100% 100% !important;
+  /* flex-direction: column; */
+}
+.property-main .header div {
+  width: 200px;
+}
+.property-main .header div button {
+  width: 100% !important;
+}
+.property-main .header div h4 {
+  margin: 20px 0;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.property-main .description h1,
+.property-main .map h3,
+.property-main .amenities h3,
+.property-main .description h3,
+.property-main .description h5 {
+  color: var(--text-black) !important;
+  margin: 5px 0;
+}
+
+.property-main .map h3 {
+  margin: 30px 0 !important;
+}
+.property-main .amenities {
+  width: 95%;
+  margin: 30px auto;
+}
+.property-main .amenities .desc{
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.property-main .amenities .desc p{
+  margin-bottom: 0 !important;
+  margin-left: 20px;
+}
+
+
+
+.property-main .description h4 {
+  color: #575757 !important;
+}
+
+.property-main .description {
+  display: flex;
+  padding: 50px 30px;
+  justify-content: space-around;
+}
+.property-main .description .left {
+  width: 60%;
+}
+.property-main .description .right {
+  width: 35%;
+}
+.property-main .description .content {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.property-main .description .right .section {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  min-height: 400px;
+  border-radius: 50px 50px 10px 10px;
+}
+.property-main .description .right .section .head h5 {
+  color: var(--text-white) !important;
+  font-weight: 400;
+}
+
+.property-main .description .right .section .head {
+  /* background-color: #ccc; */
+  background-color: rgba(128, 128, 128, 1);
+  /* background-color: rgba(16, 37, 42, 0.88); */
+  border-radius: 50px;
+  padding: 20px;
+  text-align: center;
+}
+.property-main .description .right .section .content p {
+  margin-bottom: 0;
+}
+
+.property-main .description .right .section .content {
+  padding: 20px 20px;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.property-main .description .right .section .content .ant-select-selector {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.property-main .description .right .section .content .ant-select-selector,
+.property-main .description .right .section .content .ant-select-arrow {
+  background-color: transparent;
+  color: white;
+}
+.property-main .content .bottom-bar {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.property-main .content h1 {
+  color: var(--text-white) !important;
+  margin: 5px 0;
+}
+
+.property-main .map {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.property-main .agent-main {
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+
+  /* background: url("../../assets/back-stone-gray.svg"), rgba(154, 154, 154, 0.18); */
+  background: url("../../assets/back-stone-gray.svg"), #9a9a9a70;
+  /* background-blend-mode: multiply; */
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 50%;
+  /* padding: 50px 40px 20px 40px; */
+  /* background-position-x: 50px; */
+}
+.property-main .agent-main h3,
+.property-main .agent-main h2 {
+  color: var(--text-black) !important;
+  margin: 0;
+}
+.property-main .agent-main .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+.property-main .agent-main .content p {
+  font-size: 20px;
+}
+
+.property-main .understanding h2 {
+  color: var(--text-black) !important;
+  margin: 0;
+  font-size: 2.5rem;
+}
+.property-main .understanding {
+  height: 100%;
+}
+
+.property-main .understanding .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 70%;
+  margin: 0 auto;
+}
+.property-main .understanding .content p {
+  font-size: 22px;
+}
+
+@media (max-width: 770px) {
+  .property-main .description {
+    flex-direction: column-reverse;
+  }
+  .property-main .description .left {
+    width: 100%;
+  }
+  .property-main .description .right {
+    width: 100%;
+  }
+
+  .property-main .understanding .content {
+    margin: 40px auto;
+  }
+}

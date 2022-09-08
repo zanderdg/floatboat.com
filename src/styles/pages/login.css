@@ -1,0 +1,42 @@
+.login-main h4,
+.login-main h1 {
+  color: var(--text-black) !important;
+  margin: 5px 0;
+}
+.login-main h1 {
+  font-family: "Crimson Pro", serif;
+  font-size: 2.6rem;
+}
+.login-main {
+  text-align: center;
+  padding: 40px 50px;
+  background: #f5f6f7;
+}
+.ant-modal-body {
+  padding: 0 !important;
+}
+.login-main .head {
+  font-size: 17px;
+}
+.login-main .ant-input.ant-input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--text-black);
+  padding-bottom: 10px;
+}
+
+.login-main .custom-button button {
+  background: transparent;
+  border-color: black;
+  height: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 20px;
+  margin: 20px auto;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.login-main .small {
+  font-weight: bold !important;
+}

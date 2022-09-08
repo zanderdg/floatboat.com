@@ -1,0 +1,58 @@
+.contact-main h1,
+.contact-main h2 {
+  color: var(--text-black) !important;
+  margin: 10px 0 !important;
+  font-family: "Crimson Pro", serif;
+}
+.contact-main h1 {
+  font-size: 3.5rem;
+}
+
+.contact-main h2 {
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+.contact-main p {
+  font-size: 20px;
+}
+
+.contact-main {
+  min-height: 70vh;
+  width: 95%;
+  margin: 0 auto;
+  padding: 100px 0 30px 0;
+  display: flex;
+  /* align-items: center; */
+}
+
+.contact-main .ant-input.ant-input {
+  border: none;
+  border-bottom: 1px solid var(--text-black);
+  padding-bottom: 20px;
+}
+
+.contact-main .ant-input.ant-input::placeholder {
+  /* .ant-input.ant-input:-ms-input-placeholder, */
+  /* .ant-input.ant-input::-ms-input-placeholder { */
+  color: var(--text-black);
+  opacity: 1;
+  font-size: 17px;
+}
+
+.contact-main .contact-small {
+  font-size: 12px;
+  width: 40%;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+@media (max-width: 550px) {
+  .contact-main .contact-small {
+    width: 100%;
+  }
+  .contact-main h1,
+  .contact-main h2,
+  .contact-main p {
+    text-align: center;
+  }
+}

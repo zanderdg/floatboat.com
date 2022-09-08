@@ -1,0 +1,64 @@
+.subscribtion-section h1 {
+  font-family: "Crimson Pro", serif;
+  font-weight: normal;
+  font-size: 45px;
+  color: var(--text-black) !important;
+  margin-bottom: 15px !important;
+}
+.subscribtion-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 800px;
+  justify-content: center;
+}
+.subscribtion-section .ant-input.ant-input {
+  margin-bottom: 3rem;
+}
+
+.subscribtion-section p {
+  font-size: 20px;
+  /* font-family: "Manrope", sans-serif; */
+}
+
+.subscribtion-section .ant-input.ant-input {
+  border: none;
+  border-bottom: 1px solid var(--text-black);
+  padding-bottom: 20px;
+}
+
+.subscribtion-section .subscribe {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.small {
+  /* .subscribtion-section .small { */
+  font-size: 12px !important;
+  text-align: center;
+}
+.subscribtion-section button {
+  width: 300px !important;
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+.subscribtion-section img {
+  margin: 20px auto;
+  display: flex;
+  cursor: pointer;
+}
+
+@media (max-width: 770px) {
+  .subscribtion-section .subscribe {
+    width: 90%;
+  }
+}
+
+.subscribtion-section .connect-crew-text {
+  font-size: 14px;
+  text-align: center;
+}

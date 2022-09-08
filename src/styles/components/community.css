@@ -1,0 +1,50 @@
+.community-main{
+    display: flex;
+    justify-content: center;
+    min-height: 700px;
+}
+.community-main h1{
+    font-family: "Crimson Pro", serif;
+        font-size: 3em;
+    color: var(--text-black) !important;
+}
+.community-main p{
+    font-size: 1.5rem;
+    margin: 40px 0;
+}
+
+.community-main .community-inner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.community-main .community-inner .left{
+    width: 40%;
+}
+
+@media(max-width : 1030px){
+    .community-main .community-inner .left{
+        width: 50%;
+    }   
+    .community-main .community-inner .right{
+        width: 40%;
+    }   
+}
+@media(max-width : 770px){
+    .community-main{
+        height: auto;
+        padding: 50px 0;
+    }
+    .community-main .community-inner{
+        flex-direction: column-reverse;
+    }
+    .community-main .community-inner .left{
+        width: 100%;
+    }   
+    .community-main .community-inner .right{
+        width: 100%;
+        margin-bottom: 40px;
+    }   
+}

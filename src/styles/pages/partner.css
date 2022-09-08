@@ -1,0 +1,38 @@
+.partner-main .flexible-ownership {
+  margin: 0;
+}
+.partner-main .header {
+  padding-top: 60px;
+}
+.partner-main .header .top h1,
+.partner-main .flexible-ownership h1 {
+  color: var(--text-black) !important;
+  text-align: center;
+}
+.partner-main .header .top p {
+  font-size: 19px;
+  margin: 20px 0;
+}
+
+.partner-main .header .top {
+  text-align: center;
+  width: 40%;
+  margin: 40px auto;
+}
+@media (max-width: 770px) {
+  .partner-main .header .top {
+    width: 60%;
+  }
+
+  .partner-main .video-section_description h1{
+    line-height: 50px;
+  }
+  
+
+}
+
+@media (max-width: 550px) {
+  .partner-main .header .top {
+    width: 90%;
+  }
+}

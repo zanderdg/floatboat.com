@@ -1,0 +1,60 @@
+/* float access */
+.home-main .float-access {
+  padding: 60px 0;
+  /* width: 35%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 650px;
+}
+.home-main .float-access p {
+  font-size: 19px;
+  /* font-family: "Manrope", sans-serif; */
+}
+
+.home-main .float-access h1 {
+  font-family: "Crimson Pro", serif;
+  font-weight: normal;
+  font-size: 45px;
+  color: var(--text-black) !important;
+  /* margin-bottom: 70px !important; */
+  display: flex;
+  align-items: center;
+}
+.home-main .float-access button {
+  height: 50px;
+  width: 170px;
+}
+.home-main .float-access button span:first-child {
+  border-bottom: 1px solid white;
+}
+
+/* featured boat */
+
+/* vedio-section */
+
+@media (max-width: 770px) {
+  .home-main .float-access {
+    padding: 20px;
+  }
+  .home-main .float-access h1 {
+    flex-wrap: wrap;
+  }
+  .home-main .head-content h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-main .head-content h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .home-main .head-content h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+}

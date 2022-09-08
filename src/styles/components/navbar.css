@@ -1,0 +1,123 @@
+.navbar h1,
+.navbar-mobile h1 {
+  font-size: 4rem;
+  /* font-size: 60px; */
+  font-family: "Kaushan Script", cursive;
+}
+.navbar .nav-options,
+.navbar-mobile .nav-options {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-mobile .nav-options {
+  justify-content: flex-end;
+}
+
+.navbar-mobile {
+  display: none !important;
+}
+
+.navbar,
+.navbar-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 40px;
+}
+.navbar .nav-options button,
+.navbar .nav-options button svg,
+.navbar-mobile .nav-options button,
+.navbar-mobile .nav-options button svg {
+  color: var(--text-white);
+  font-size: 1.2rem;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .ant-select:not(.ant-select-customize-input) .ant-select-selector,
+.navbar .ant-select-arrow {
+  background-color: transparent;
+  border: none;
+  color: var(--text-white);
+  font-size: 1.2rem;
+}
+
+.navbar .bottomBorder span {
+  border-bottom: 1px solid white;
+}
+.navbar .nav-options button span {
+  transition: 0.3s;
+}
+
+.navbar .nav-options button:hover span {
+  border-bottom: 1px solid white;
+}
+.navbar-mobile .nav-options button:hover span {
+  border: none;
+}
+
+.navdrawer h4,
+.navdrawer h2 {
+  color: var(--text-black) !important;
+  margin: 30px 0;
+}
+
+.navdrawer h4:hover {
+ cursor:pointer;
+ border-bottom: 1px solid black;
+ width:max-content;
+}
+
+/* navbar primary */
+.navbar-primary {
+  background-color: var(--primary-color);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 3;
+  box-shadow: var(--boxShadow);
+  padding: 20px !important;
+}
+.navbar-primary h1 {
+  font-size: 2.5rem !important;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    display: none !important;
+  }
+  .navbar-mobile {
+    display: flex !important;
+  }
+}
+@media (max-width: 550px) {
+  .navbar h1,
+  .navbar-mobile h1 {
+    font-size: 2rem !important;
+  }
+}
+
+/* drawer */
+.ant-drawer-body {
+  /* position: relative !important; */
+  /* background: #f5f6f7; */
+  background: url("../../assets/stone-dark.png"), #f5f6f7;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto 20%;
+  padding: 0px 60px;
+}
+.ant-drawer-header.ant-drawer-header {
+  background-color: #f5f6f7;
+  padding: 30px 24px;
+}
+.ant-drawer-header-title {
+  justify-content: flex-end;
+}
+.ant-drawer-close{
+  color: black;
+  font-size: 20px;
+}

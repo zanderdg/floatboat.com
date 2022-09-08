@@ -1,0 +1,70 @@
+.buy-section {
+  padding: 50px;
+  background-color: #eeeeee;
+}
+.buy-section .buy-content-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+.buy-section .heading h1 {
+  color: var(--text-black) !important;
+  font-weight: normal !important;
+  text-align: center;
+}
+.buy-section .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 130px;
+  align-items: center;
+}
+.buy-section .heading p {
+  /* font-family: "Manrope", sans-serif; */
+  margin-bottom: 0;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.buy-section .buy-content-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+.buy-section .buy-content h1 {
+  font-family: "Kaushan Script", cursive;
+  font-weight: normal;
+  font-size: 45px;
+  color: var(--text-black) !important;
+  margin-bottom: 20px !important;
+  display: flex;
+  align-items: center;
+}
+.buy-section .buy-content .content {
+  width: 35%;
+}
+
+.buy-section .buy-content .content p {
+  font-size: 18px;
+  /* font-family: "Manrope", sans-serif; */
+  padding-left: 60px;
+}
+
+.buy-content .buy-icon {
+  position: relative;
+  margin-right: 20px;
+}
+.buy-content .buy-icon .inner {
+  position: absolute;
+  left: 15px;
+  top: 22px;
+}
+
+@media(max-width : 1030px){
+  .buy-section .buy-content-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .buy-section .buy-content .content {
+    width: 100%;
+  }
+}

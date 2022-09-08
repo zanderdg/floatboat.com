@@ -1,0 +1,69 @@
+.ant-btn-primary.ant-btn-primary {
+  height: 50px;
+  min-width: 170px;
+  width: max-content;
+  font-weight: bold;
+  font-family: "Manrope", sans-serif;
+  letter-spacing: 1px;
+}
+.ant-btn-primary.ant-btn-primary span:first-child {
+  /* text-decoration: underline; */
+  border-bottom: 1px solid white;
+}
+
+.ant-btn-text.ant-btn-text {
+  color: var(--text-white);
+  padding: 4px 0;
+  width: max-content;
+}
+.ant-divider-vertical.ant-divider-vertical {
+  border-color: var(--text-black);
+  height: 1.5em;
+}
+.ant-radio-wrapper.ant-radio-wrapper {
+  margin: 0 20px 20px 0;
+  font-size: 15px;
+}
+.ant-radio-wrapper.ant-radio-wrapper span {
+  padding-left: 10px;
+}
+
+.ant-collapse-header {
+  padding: 22px 10px !important;
+  border-top: 1px solid black;
+  /* border-bottom: 1px solid black; */
+  font-size: 20px;
+}
+.ant-collapse-content p {
+  font-size: 16px;
+}
+.ant-carousel .slick-next.slick-next {
+  right: 25px;
+}
+.ant-carousel .slick-next.slick-next,
+.ant-carousel .slick-prev.slick-prev {
+  font-size: 40px;
+  color: #b8b8b8;
+  z-index: 3;
+}
+.ant-carousel .slick-prev {
+  left: 25px;
+}
+.ant-carousel .slick-dots li.slick-active button{
+background-color: black;
+}
+.ant-carousel .slick-dots li.slick-active{
+  width: 70px;
+  margin-left: 10px;
+
+}
+.ant-carousel .slick-dots li{
+  width: 70px;
+  margin-left: 10px;
+
+}
+
+.ant-carousel .slick-dots li button{
+background-color: rgba(16, 37, 42, 0.35);
+height: 4px;
+}

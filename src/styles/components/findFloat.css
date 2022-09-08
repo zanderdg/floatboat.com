@@ -1,0 +1,52 @@
+.find-float {
+  background-color: rgba(154, 154, 154, 0.18);
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+}
+.find-float .header {
+  text-align: center;
+}
+.find-float .find-float-inner {
+  width: 40%;
+  margin: 0 auto;
+}
+.find-float h1,
+.find-float h3 {
+  margin: 10px 0;
+  font-family: "Crimson Pro", serif;
+  /* font-size: 3em; */
+  color: var(--text-black) !important;
+}
+.find-float p {
+  margin: 30px 0;
+  font-size: 16px;
+}
+.find-float .find-float-inner .ant-input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid var(--text-black);
+  padding-bottom: 20px;
+}
+.find-float .find-float-inner button {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  letter-spacing: 2px;
+  min-width: 200px;
+  max-width: auto;
+}
+
+@media (max-width: 770px) {
+  .find-float .find-float-inner {
+    width: 90%;
+  }
+  .find-float {
+    height: auto;
+    padding: 40px 0;
+  }
+}

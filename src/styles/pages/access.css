@@ -1,0 +1,115 @@
+.access-main .header {
+  background-color: #dedede;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.access-main .header-inner {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.access-main .header-inner h1,
+.access-main .header-inner h2 {
+  color: var(--text-black) !important;
+  margin: 10px 0;
+}
+.access-main .header-inner p {
+  font-size: 18px;
+  width: 70%;
+  margin: 20px 0;
+}
+
+.access-main .flexible-ownership {
+  background-color: transparent;
+  margin: 0;
+}
+.access-main .advantage h1,
+.access-main .timeline h1 {
+  color: var(--text-black) !important;
+  margin: 20px 0 !important;
+}
+.access-main .advantage p {
+  font-size: 20px;
+}
+
+.access-main .advantage {
+  /* min-height: 400px; */
+  /* padding: 60px 0 60px 60px; */
+  background: url("../../assets/stone2.svg"), #eeeeee;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: auto 40%;
+  padding: 100px 20px;
+  background-position-x: -50px;
+}
+
+.access-main .timeline {
+  min-height: 600px;
+  background: url("../../assets/stone2.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto 60%;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.access-main .timeline .content p {
+  font-size: 25px;
+}
+
+.access-main .timeline .content {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.access-main .float-works {
+  background-color: var(--primary-color);
+  padding: 100px 20px;
+}
+.access-main .float-works h5 {
+  font-weight: normal;
+}
+.access-main .float-works .content button{
+  margin: 20px 0;
+}
+
+.access-main .float-works .content button span:first-child {
+  border-bottom: 1px solid white;
+}
+
+.access-main .float-works .content h5 {
+  width: 50%;
+}
+
+.access-main .float-works .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 1030px) {
+  .access-main .float-works .content h5 {
+    width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  .access-main .header-inner {
+    flex-direction: column;
+  }
+  .access-main .header {
+    height: auto;
+    padding: 80px 0;
+  }
+}
+@media (max-width: 550px) {
+  .access-main .header-inner img {
+    width: 100%;
+  }
+  .access-main .timeline .content p {
+    font-size: 20px;
+  }
+}

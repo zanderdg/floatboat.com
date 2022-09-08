@@ -1,0 +1,319 @@
+ .ourstory-main .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+ } 
+ 
+
+ .ourstory-main .content p {
+  font-size: 15px;
+  /* font-family: "Manrope", sans-serif; */
+   /* color: var(--text-white); */
+}
+ .ourstory-main .content p {
+   margin: 20px 0;
+   color: #2e2e33;
+} 
+
+.ourstory-main .content h1 {
+   color:var(--text-black) !important;
+   font-family: serif;
+   font-weight: 250;
+} 
+
+.ourstory-main .content button {
+   color:var(--text-black) !important;
+   color: #2e2e33;
+   border-bottom:1px solid #2e2e33;
+} 
+
+.ourstory-main .company {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   /* align-items: center; */
+  } 
+  
+ 
+  .ourstory-main .company p {
+   font-size: 15px;
+   /* font-family: "Manrope", sans-serif; */
+    /* color: var(--text-white); */
+ }
+  .ourstory-main .company p {
+    margin: 20px 0;
+    color: #2e2e33;
+ } 
+ 
+ .ourstory-main .company h1 {
+    color:var(--text-black) !important;
+    font-family: serif;
+    font-weight: 250;
+ } 
+ 
+ .ourstory-main .company button {
+    color:var(--text-black) !important;
+    color: #2e2e33;
+    border-bottom:1px solid #2e2e33;
+ } 
+ 
+.ourstory-main .ourstory-header h3 {
+   color:var(--text-black) !important;
+} 
+
+.ourstory-main .ourstory-header {
+   /* background-color: rgba(154, 154, 154, 0.18); */
+   /* min-height: 700px; */
+   padding: 80px 0 13px 0;
+   text-align: center;
+ }
+ .ourstory-main .ourstory-header h1 {
+   color: var(--text-black) !important;
+   font-weight: normal;
+   font-size: 4rem;
+   font-family: "Crimson Pro", serif;
+   margin-top: 0.2em;
+ }
+
+ .ourstory-main .ourstory-header p {
+   font-size: 15px;
+   margin: 20px 0;
+   font-family: "Manrope",sans-serif;
+   color: #2e2e33;
+ }
+ 
+ .ourstory-main .imagecontent {
+   /* padding: 60px 0 0 60px; */
+   width : 90%;
+   margin : 40px auto
+ }
+
+ .ourstory-main .float-header {
+   background-color: rgba(154, 154, 154, 0.18);
+   margin-top: 20px;
+   /* min-height: 700px; */
+   padding: 25px 0;
+   text-align: center;
+ }
+ .ourstory-main .float-header h1 {
+   color: var(--text-black) !important;
+   font-weight: normal;
+   font-size: 2rem;
+   font-family: "Crimson Pro", serif;
+   margin-top: 0.2em;
+ }
+
+ .ourstory-main .float-header p {
+   font-size: 15px;
+   margin: 6px 0 45px 0;
+   font-family: "Manrope",sans-serif;
+   color: #2e2e33;
+ }
+
+ .ourstory-main .bts {
+   margin-top: 20px;
+   /* min-height: 700px; */
+   padding: 12px 0 0 0;
+   text-align: center;
+ }
+
+ .ourstory-main .bts h1 {
+   color: var(--text-black) !important;
+   font-weight: normal;
+   font-size: 2rem;
+   font-family: "Crimson Pro", serif;
+   margin-top: 0.2em;
+ }
+
+ .ourstory-main .bts p {
+   font-size: 15px;
+   margin: 6px 0 45px 0;
+   font-family: "Manrope",sans-serif;
+   color: #2e2e33;
+ }
+
+ 
+ .imagecontent .ant-card-body{
+   padding: 24px 24px 10px 10px;
+ }
+ .ourstory-main .ourstory-section .filters {
+   background-color: #f5f5f5;
+   border-radius: 10px;
+   text-align: left;
+   height: max-content;
+   padding: 30px 30px;
+   width: 15%;
+ }
+ 
+ .float-header .vidplayer{
+   width: 50%;
+ }
+ 
+ 
+ 
+ 
+ @media (max-width: 770px) {
+   
+   .float-header .vidplayer{
+      width: 100%;
+    }
+
+   .ourstory-main .content{
+         padding: 0 0 26px 0;
+   }
+
+   .ourstory-main .company{
+      padding: 30px 0 0 0;
+}
+   
+   /* .ourstory-main .ourstory-section {
+     flex-direction: column;
+   }
+   .ourstory-main .ourstory-section .filters {
+     width: 100%;
+     margin-bottom: 40px;
+     height: auto;
+   }
+   .ourstory-main .float-offerings .content {
+     width: 100%;
+   }
+   .ourstory-main .ourstory-section .ourstorys {
+     width: 100%;
+   }
+ }
+ .ourstorys .toggle-button {
+   display: flex;
+   justify-content: flex-end;
+   margin: 30px 0;
+ }
+ .ourstorys .toggle-button button svg {
+   font-size: 25px;
+ }
+ 
+ .ourstorys .toggle-button button {
+   margin: 0 5px;
+   min-width: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .ourstorys .top-filters p {
+   font-weight: normal;
+   font-size: 17px;
+   text-align: left;
+   margin: 5px 0;
+ }
+ .ourstorys .top-filters .ant-input-affix-wrapper {
+   border-radius: 20px;
+ }
+ .ourstorys .top-filters .ant-tag.ant-tag {
+   border-radius: 20px;
+   padding: 5px 20px;
+ }
+ .ourstorys .toggle-main {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .ourstorys .top-filters {
+   background-color: #ebe9e9;
+   padding: 20px;
+   border-radius: 10px;
+   text-align: left;
+ } */
+ 
+ /* hover effect */
+ 
+ /* .box5 {
+   position: relative; */
+   /* overflow: hidden; */
+   /* text-align: center;
+ }
+ .box5:before {
+   content: "";
+ }
+ .box5 .box-content,
+ .box5:after,
+ .box5:before {
+   position: absolute;
+   left: 0%;
+   right: 0%;
+   transition: transform 0.5s;
+ }
+ .box5:after,
+ .box5:before {
+   display: block;
+   background: rgba(0, 0, 0, 0.45);
+   top: 0%;
+   bottom: 0%;
+   z-index: 1;
+   transform: scale(1, 0);
+ }
+ .box5:after {
+   top: 0%;
+   bottom: 0%;
+   /* transform: scale(1, 0); */
+ /* }
+ .box5:hover:after,
+ .box5:hover:before {
+   transform: scale(1);
+   animation: animate 1.5s;
+ }
+ .box5 .box-content {
+   padding: 30px 10px;
+   top: 10%;
+   bottom: 10%;
+   opacity: 0;
+   z-index: 2;
+ }
+ .box5:hover .box-content {
+   box-shadow: 0 0 0 rgba(0, 0, 0, 0.45);
+   opacity: 1;
+   transition: all 0.3s;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .box5 button {
+   background: transparent;
+   color: white;
+   height: 40px;
+   border: 1.5px solid white;
+   font-weight: 600;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .box5 button:hover {
+   background: var(--primary-color);
+   color: white;
+   font-weight: bold;
+   border-color: var(--primary-color);
+ } */
+  
+ @keyframes animate {
+   0%,
+   100% {
+     opacity: 1;
+   }
+ }
+ @keyframes animate-hover {
+   0% {
+     box-shadow: 0 0 0 10px rgba (0, 175, 185, 0.55);
+   }
+   50% {
+     box-shadow: 0 0 0 5px rgba (0, 175, 185, 0.55);
+   }
+   100% {
+     box-shadow: 0 0 0 0 rgba (0, 175, 185, 0.55);
+   }
+ }
+ @media only screen and (max-width: 990px) {
+   .box5 .box-content {
+     padding: 10px;
+   }
+ }
+}
